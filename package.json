@@ -1,0 +1,34 @@
+{
+  "name": "xss-simulation",
+  "version": "1.0.0",
+  "description": "simple web application to demonstrate a xss vulnerability",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ubatubamay/xss-simulation.git"
+  },
+  "keywords": [
+    "xss",
+    "cross-site-scripting",
+    "web-vulnerability"
+  ],
+  "author": "ubatubamay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ubatubamay/xss-simulation/issues"
+  },
+  "homepage": "https://github.com/ubatubamay/xss-simulation#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "cookie-parser": "~1.4.5",
+    "morgan": "~1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
